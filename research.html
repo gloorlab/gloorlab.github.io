@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<div id="header">
+				<h1>Our Research</h1>
+				<section id="content" class="main">
+					<ul class="actions">
+					<li><a href="index.html" class="button">Back</a></li>
+				</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#themes" class="active">Research Themes</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#selections">Selections</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+						<section id="content" class="main"><hr>
+						<p>Find below an overview of our research including themes, projects past and present, resources, and selections on compositional data analysis.</p><hr>
+
+						<!-- Content -->
+								<section id="themes" class="main">
+								<div id="header"><hr>
+								<h1>Research Themes</h1>
+								<hr>
+							</div>
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Functional Characterization of Microbiomes</h2>
+										</header>
+										<p>
+										We are examining the composition and functional characteristics of microbial communities, and of coevolving networks in protein families. Currently, we examine the meta-transcriptome of vaginal, stool and maize microbial communities, and are connecting these results with those from other functional analyses such as metabolomics and proteomics.
+										<br>
+										</p>
+									</div>
+									<span class="image"><img src="images/microbiome.png" alt="" /></span>
+								</div>
+								<br><hr><br>
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Compositional Data Analysis</h2>
+										</header>
+										<p>
+										Interestingly, we have been able to show that many high-throughput sequencing experiments are best analyzed by combining Bayesian and compositional data approaches.<br>
+										<br>
+										It is crucial to understand that HTS generates data where the actual read count is irrelevant because the reads for a given sample have a constrained sum. The constant sum problem in statistical analyses was recognized by Karl Pearson in the 19th century, but was largely ignored until recently. Using standard statistical tools on these types of data, as is common in metagenomics and transcriptomics, results in data where the results are unstable to re-coding, permutation, sequencing depth, and sub-setting.<br>
+										<br>
+										Our approach is invariant to these since we convert the read counts to ratios that are stable no matter how the data is subset, rearranged or subdivided. With this approach we have successfully examined meta-transcriptomic datasets, 16S rRNA gene sequencing datasets, in vitro selection (selex) datasets and shown that the basic approach is broadly generalizable across many different HTS study designs.
+										<br>
+										</p>
+									</div>
+									<span class="image"><img src="images/simplex.png" alt="" /></span>
+								</div>
+							</section>
+								<section id="projects" class="main">
+								<div id="header"><hr>
+								<h1>Projects</h1><hr>
+								</div>
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>ALDEx2</h2>
+										</header>
+										<p>
+										We developed and maintain the ALDEx2 package which uses the principles of Compositional Data analysis coupled with Bayesian inference to determine differential abundance between groups for transcriptome and microbiome datasets: <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067019"> Fernandes et al, 2013</a>, <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4030730/">Fernandes et al, 2014</a>.</p>
+										<ul class="actions">
+										<li><a href="https://bioconductor.org/packages/release/bioc/html/ALDEx2.html" class="button">ALDEx2 on Bioconductor</a></li>
+									</div>
+									<span class="image"><img src="images/aldexplt.png" alt="" /></span>
+								</div>
+								<br><hr><br>
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>CoDaSeq</h2>
+										</header>
+										<p>
+										CoDaSeq is a suite of R functions for compositional analysis of high throughput sequencing.
+										</p>
+										<ul class="actions">
+										<li><a href="https://github.com/ggloor/CoDaSeq"class="button">CoDaSeq on Github</a></li>
+									</div>
+									<span class="image"><img src="images/aldexplt.png" alt="" /></span>
+								</div>
+								<br><hr><br>
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>The Effect Plot</h2>
+										</header>
+										<p>
+										 We have developed the 'effect plot', a useful graphical tool that shows the relationship between the within group dispersion and the between group difference. We find the plot to be a useful adjunct to Bland-Altman and Volcano plots: <a href="http://dx.doi.org/10.1080/10618600.2015.1131161"> Gloor et al, 2015</a>
+									</div>
+									<span class="image"><img src="images/effectplt.png" alt="" /></span>
+								</div>
+								<br><hr><br>
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>In-line barcodes and workflow for 16S rRNA gene sequencing</h2>
+										</header>
+										<p>
+										 We developed an inline combinatorial barcoding system for the Illumina HiSeq and MiSeq platforms. The below repository contains protocols and software. (<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0015406">Gloor et al, 2010;</a>)
+										 <ul class="actions">
+										 <li><a href="https://github.com/ggloor/miseq_bin/releases" class="button">Newest Release on Github</a></li>
+									</div>
+									<span class="image"><img src="images/barcoding.png" alt="" /></span>
+								</div>
+							</section>
+							<section id="selections" class="main special">
+								<div id="header"><hr>
+								<h1>Selections</h1><hr>
+								</div>
+								<p>High throughput sequencing data is compositional by default, and should be analyzed as such. The below repositories and selections contain presentations and worked examples.</p><br>
+								<ul class="features">
+									<li>
+									<span class="image"><img src = "images/pie.png" alt = "" /></span>
+									<h3><a href="https://github.com/ggloor/compositions">Using CoDa analysis on high throughput sequencing</a></h3>
+									</li>
+									<li>
+									<span class="image"><img src = "images/list.png" alt = "" /></span>
+									<h3><a href="https://github.com/ggloor/compositions/blob/master/background_reading/Reading_List.md">A list of useful readings</a></h3>
+									</li>
+									<li>
+									<span class="image"><img src = "images/pres.png" alt = "" /></span>
+									<h3><a href="https://github.com/ggloor/compositions/tree/master/presentations">A recent set of presentations</a></h3>
+									</li>
+									<li>
+									<span class="image"><img src = "images/maze.png" alt = "" /></span>
+									<h3><a href="https://github.com/ggloor/CoDa_microbiome_tutorial/wiki">A tutorial on CoDa analysis of the microbiome</a></h3>
+									</li>
+									</ul>
+							</div>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Created by Brandon Lieng and Daniel Giguere | Design: <a href="https://html5up.net">HTML5 UP</a> | Microbiome image from: <a href=" http://wholehealthaustin.com/2016/02/17/the-microbiome/">Whole Health Austin</a> | Icons designed by Freepik from Flaticon</p>
+					</footer>
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
